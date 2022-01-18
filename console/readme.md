@@ -13,3 +13,6 @@ server.tomcat.accesslog.directory=G:/gitProjects/nacos/console/logs
 
 # 生成的目录
 data、logs、目录是程序启动时自动生成的
+
+# consistency 项目
+consistency 项目中使用了 protobuf，在启动前需先将该项目编译
